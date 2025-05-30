@@ -6,7 +6,7 @@ import java.util.concurrent.*;
 
 public class CajasApplication {
     public static void main(String[] args) throws InterruptedException {
-        Scanner scanner = new Scanner(System.in); // Advertencia ignorada deliberadamente
+        Scanner scanner = new Scanner(System.in); // Advertencia ignorada deliberadamente o se puede bloquear la app
         Queue<ClienteProducto> colaClientes = new LinkedList<>();
 
         // 1. Mostrar productos
